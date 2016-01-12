@@ -10,3 +10,6 @@ The goal of this routine is precisely that: given an estimated SPM, find the clu
 And that's it!
 
 As usual, this provided 'as is', without any warranty or support. Use at your own risk!
+
+# WARNING:
+The results are valid only when smoothness is assumed to be homogeneous all over the brain volume, i.e. when the cluster extent threshold is the same across the brain. Otherwise the threshold should be adjusted locally to account for the local smoothness... Not easy to implement!
