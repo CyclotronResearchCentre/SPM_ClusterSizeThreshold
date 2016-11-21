@@ -7,7 +7,7 @@ The goal of this routine is precisely that: given an estimated SPM, find the clu
 ## How do you use it?
 Once your SPM is estimated:
   1. look at your SPM results, using a voxel-wise uncorrected p-value threshold, i.e. typically the .001 uncorrected cluster forming threshold
-  2. run 'K_thresh = cp_cluster_Pthresh(xSPM, p_val)' where 'xSPM' is a structure available in your Matlab workspace when looking at SPM results and 'p_val' is the statistical threshold you want [.05 by default if omitted].
+  2. run `K_thresh = cp_cluster_Pthresh(xSPM, p_val)` where `xSPM` is a structure available in your Matlab workspace when looking at SPM results and `p_val` is the statistical threshold you want [.05 by default if omitted].
   3. change the cluster extend threshold to 'K_thresh'
 
 And that's it!
