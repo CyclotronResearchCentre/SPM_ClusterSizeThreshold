@@ -16,3 +16,5 @@ As usual, this provided 'as is', without any warranty or support. Use at your ow
 
 # WARNING:
 The results are valid only when smoothness is assumed to be homogeneous all over the brain volume, i.e. when the cluster extent threshold is the same across the brain. Otherwise the threshold should be adjusted locally to account for the local smoothness... Not easy to implement!
+
+[![DOI](https://zenodo.org/badge/49490279.svg)](https://zenodo.org/badge/latestdoi/49490279)
