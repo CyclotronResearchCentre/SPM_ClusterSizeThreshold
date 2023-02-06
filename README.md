@@ -1,6 +1,6 @@
 # SPM Cluster Size Threshold estimation
 
-When looking at their SPM results, users very often set the "cluster size threshold", expressed in voxels, to an arbitrary value (I've seen 10, 30, etc.) such that their plot looks good! If this is just cosmetic choice, fine, why not. On the other hand, one could be interested in setting the cluster extent threshold to a meanigful value, i.e. use an extent corresponding to some p-value.
+When looking at their SPM results ([RRID:SCR_007037](https://scicrunch.org/resources/about/registry/SCR_007037)), users very often set the "cluster size threshold", expressed in voxels, to an arbitrary value (I've seen 10, 30, etc.) such that their plot looks good! If this is just cosmetic choice, fine, why not. On the other hand, one could be interested in setting the cluster extent threshold to a meanigful value, i.e. use an extent corresponding to some p-value.
 
 The goal of this routine is precisely that: given an estimated SPM, find the cluster extent threshold, such that only significant (at a defined **corrected** p-value!) clusters are displayed and listed. 
 
@@ -17,4 +17,7 @@ As usual, this provided 'as is', without any warranty or support. Use at your ow
 # WARNING:
 The results are valid only when smoothness is assumed to be homogeneous all over the brain volume, i.e. when the cluster extent threshold is the same across the brain. Otherwise the threshold should be adjusted locally to account for the local smoothness... Not easy to implement!
 
+## How to cite
 [![DOI](https://zenodo.org/badge/49490279.svg)](https://zenodo.org/badge/latestdoi/49490279)
+
+[RRID:SCR_023240](https://scicrunch.org/resources/about/registry/SCR_023240)
